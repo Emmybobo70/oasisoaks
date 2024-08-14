@@ -1,0 +1,246 @@
+.navbar-logo {
+  height: 50px;
+  /* Adjust the height to match your design */
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 16px;
+  /* Adjust the font size to match your design */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  /* Adjust the spacing between the menu items */
+}
+
+.navbar .btn-success {
+  margin-right: 20px;
+  font-size: 16px;
+  /* Adjust the size and margin for the button */
+}
+
+.bg-dark {
+}
+
+.hero-section {
+  background-color: #34495e;
+  padding: 100px 50px;
+}
+
+.hero-section h1,
+.hero-section h2 {
+  font-weight: bold;
+}
+
+.hero-section .text-success {
+  color: #28a745 !important;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.service-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-box .icon-wrapper {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.service-box img {
+  max-width: 80px;
+}
+
+.service-box h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.service-box p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.service-box .learn-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.service-box .learn-more:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: ;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+}
+
+.hero-section .image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero-section .features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.hero-section .feature-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.hero-section .feature-box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-section .feature-box h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.learn-more-button {
+  background-color: #ffffff;
+  color: #f04a1e;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.trusted-section {
+  background-color: #f4ebd0;
+  padding: 60px 0;
+  position: relative;
+  text-align: left;
+}
+
+.trusted-section .map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background: url("path_to_your_map_image.png") no-repeat center center/cover;
+}
+
+.trusted-section .content {
+  position: relative;
+  z-index: 2;
+  padding-right: 50%;
+}
+
+.trusted-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.trusted-section .stats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.trusted-section .stat-box {
+  text-align: center;
+}
+
+.trusted-section .stat-box h3 {
+  font-size: 32px;
+  color: #007b5e;
+  margin: 0;
+}
+
+.trusted-section .stat-box p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.trusted-section .connect-button {
+  background-color: #007b5e;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  margin-top: 40px;
+}
+
+.trusted-section .profile-images {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trusted-section .profile-images img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
